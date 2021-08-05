@@ -12,10 +12,10 @@ public class N4 {
             }
             System.out.println(result);
         }else{
-            for (int i = 0; i < -1 * b; i++) {
+            for (int i = 0; i < Math.abs(b); i++) {
                 result += a;
             }
-            System.out.println(-1 * result);
+            System.out.println(a < 0 ? Math.abs(result) : "-" + result);
         }
 
     }
