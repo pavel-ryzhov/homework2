@@ -15,7 +15,7 @@ public class N4 {
             for (int i = 0; i < Math.abs(b); i++) {
                 result += a;
             }
-            System.out.println(a < 0 ? Math.abs(result) : "-" + result);
+            System.out.println(a <= 0 ? Math.abs(result) : "-" + result);
         }
 
     }
